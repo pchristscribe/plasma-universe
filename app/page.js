@@ -1,5 +1,15 @@
+/**
+ * @file Home page component for the Next.js application.
+ * @module app/page
+ */
+
 import Image from "next/image";
 
+/**
+ * Renders the Home page.
+ *
+ * @returns {JSX.Element} The rendered Home page component.
+ */
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
